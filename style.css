@@ -1,0 +1,130 @@
+/*Here goes the styling of the website */
+
+body {
+    display:flex; 
+    flex-direction:column;
+    justify-content:space-between;
+    align-items: center;
+    min-height:200vh ;
+    margin: 0 ; 
+    font-family: "Roboto" ;
+}
+
+a {
+    text-decoration: none;
+    color: white; 
+}
+
+.header,
+.first-body,
+.footer {
+    display:flex; 
+    background-color: #1F2937;
+    color: white;
+    min-width: 100%;
+}
+
+
+
+/* This section handles header */
+.header {
+    justify-content: space-between;
+    padding-top : 30px ; 
+}
+
+
+
+.left-header {
+    font-size : 24px ; 
+    color : #f9faf8 ;
+    padding-left: 250px; 
+}
+
+.right-header {
+    display:flex ;
+    gap: 20px ; 
+    font-size : 18px ; 
+    color : #e5e7eb;
+    padding-right: 250px;
+}
+
+/*This section is dedicated to the first body section */
+
+.first-body{
+    justify-content: space-between;
+    align-items: center;
+    flex:1 ;
+    gap: 40px ; 
+    padding-top: 10px ; 
+}
+
+.left-first-body{
+    display:flex; 
+    flex-direction: column;
+    flex-grow: 1; 
+    padding-left: 250px ; 
+    gap: 10px ; 
+}
+.right-first-body {
+    flex-grow : 1 ; 
+    padding-right : 250px ; 
+}
+
+.first-body-first {
+    font-size:48px;
+    color : #f9faf8; 
+    font-weight: 900;
+}
+
+button {
+    border-radius: 5px;
+    background-color: #3882f6;
+    color : #f9faf8; 
+    padding : 10px ;
+    border:none ;  
+    font-weight: 600;
+}
+
+/* The next section is dedicated for the second body */
+
+
+
+.second-body{
+    flex:1;
+    text-align:center ; 
+}
+
+.second-body .title {
+    font-size:36px ; 
+    font-weight: 900 ; 
+    color: #1F2937; 
+    padding: 30px ; 
+}
+.container {
+    flex: 1 1 60px ; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap : 30px ;
+}
+
+.middle {
+    display:flex; 
+    gap: 30px ; 
+    align-items: center;
+    flex-wrap:wrap ; 
+}
+
+.image img {
+    border-radius: 10px ;
+    border: 3px solid #3882f6;
+    width: 100px ; 
+    height: 100px ;
+}
+
+
+.third-body{
+    flex:1;
+}
+
+
