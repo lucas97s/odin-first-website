@@ -5,7 +5,7 @@ body {
     flex-direction:column;
     justify-content:space-between;
     align-items: center;
-    min-height:200vh ;
+    min-height:150vh ; 
     margin: 0 ; 
     font-family: "Roboto" ;
 }
@@ -53,7 +53,7 @@ a {
 .first-body{
     justify-content: space-between;
     align-items: center;
-    flex:1 ;
+    flex-grow:1 ;
     gap: 40px ; 
     padding-top: 10px ; 
 }
@@ -90,8 +90,13 @@ button {
 
 
 .second-body{
-    flex:1;
+    flex-grow:1 ; 
     text-align:center ; 
+    display:flex ; 
+    flex-direction: column ; 
+    align-items: center;
+    justify-content:center;
+    gap: 30px ; 
 }
 
 .second-body .title {
@@ -122,9 +127,42 @@ button {
     height: 100px ;
 }
 
+/* The third body starts from here */
 
 .third-body{
-    flex:1;
+    flex-grow:1;
+    display:flex ; 
+    flex-direction: column;
+    background-color: #e5e7eb;
+    min-width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 40px ; 
+
 }
 
+.quote {
+    font-size : 36px ; 
+    color : #1F2937;
+    font-style: italic; 
+    padding-right: 250px;
+    padding-left: 250px ; 
+}
+
+.person {
+    font-size : 18px ; 
+    color : #1F2937;
+    font-weight: 700;
+    padding-right: 250px;
+    padding-left: 250px ; 
+    align-self: flex-end;
+}
+
+/* The fourth body goes down here */
+
+.fourth-body {
+    background-color: #3882f6;
+    display:flex ; 
+    
+}
 
